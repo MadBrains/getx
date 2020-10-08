@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'custom_route.dart' as custom;
+
 
 class LeftToRightFadeTransition {
   Widget buildTransitions(
@@ -182,6 +184,21 @@ class SizeTransitions {
         child: child,
       ),
     );
+  }
+}
+
+class PlazaPlatformTransition {
+  Widget buildTransitions(BuildContext context,
+      Curve curve,
+      Alignment alignment,
+      Animation<double> animation,
+      Animation<double> secondaryAnimation,
+      Widget child) {
+    return custom.CupertinoPageTransition(
+      secondaryRouteAnimation: secondaryAnimation,
+      primaryRouteAnimation: animation,
+      linearTransition: true,
+      child: child,);
   }
 }
 

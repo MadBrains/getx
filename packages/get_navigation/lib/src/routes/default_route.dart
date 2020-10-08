@@ -351,6 +351,20 @@ class GetPageRoute<T> extends PageRoute<T> {
                     child: child)
                 : child);
 
+      case Transition.plazaPlatfrom:
+        return PlazaPlatformTransition().buildTransitions(
+            context,
+            curve,
+            alignment,
+            animation,
+            secondaryAnimation,
+            popGesture ?? Get.defaultPopGesture
+                ? _CupertinoBackGestureDetector<T>(
+                    enabledCallback: () => _isPopGestureEnabled<T>(this),
+                    onStartPopGesture: () => _startPopGesture<T>(this),
+                    child: child)
+                : child);
+
       default:
         if (Get.customTransition != null) {
           return Get.customTransition.buildTransition(

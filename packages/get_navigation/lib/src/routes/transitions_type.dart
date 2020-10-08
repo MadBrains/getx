@@ -15,7 +15,8 @@ enum Transition {
   cupertino,
   cupertinoDialog,
   size,
-  native
+  native, 
+  plazaPlatfrom
 }
 
 typedef GetPageBuilder = Widget Function();
