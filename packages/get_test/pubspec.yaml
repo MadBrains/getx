@@ -13,14 +13,14 @@ dependencies:
   mockito: ">=3.0.0 <5.0.0"
   get_navigation:
     git:
-      url: git://github.com/jonataslaw/getx.git
+      url: git://github.com/MrOlolo/getx.git
       path: packages/get_navigation
-      ref: master
+      ref: fix/route-transition
   get_state_manager:
     git:
-      url: git://github.com/jonataslaw/getx.git
+      url: git://github.com/MrOlolo/getx.git
       path: packages/get_state_manager
-      ref: master
+      ref: fix/route-transition
   meta: ">=1.1.0 <2.0.0"
   flutter_test:
     sdk: flutter

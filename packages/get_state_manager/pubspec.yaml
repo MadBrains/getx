@@ -12,19 +12,19 @@ dependencies:
     sdk: flutter
   get_rx:
     git:
-      url: git://github.com/jonataslaw/getx.git
+      url: git://github.com/MrOlolo/getx.git
       path: packages/get_rx
-      ref: master
+      ref: fix/route-transition
   get_instance:
     git:
-      url: git://github.com/jonataslaw/getx.git
+      url: git://github.com/MrOlolo/getx.git
       path: packages/get_instance
-      ref: master
+      ref: fix/route-transition
   get_core:
     git:
-      url: git://github.com/jonataslaw/getx.git
+      url: git://github.com/MrOlolo/getx.git
       path: packages/get_core
-      ref: master
+      ref: fix/route-transition
 
 dev_dependencies:
   flutter_test:
