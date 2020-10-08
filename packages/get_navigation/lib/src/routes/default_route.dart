@@ -367,8 +367,8 @@ class GetPageRoute<T> extends PageRoute<T> {
 
       default:
         if (Get.customTransition != null) {
-          return Get.customTransition.buildTransition(
-              context, curve, alignment, animation, secondaryAnimation, child);
+          return Get.customTransition.buildTransition(context, curve, alignment,
+              iosAnimation, secondaryAnimation, child);
         }
 
         return PageTransitionsTheme().buildTransitions(
