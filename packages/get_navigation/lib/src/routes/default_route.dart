@@ -356,7 +356,7 @@ class GetPageRoute<T> extends PageRoute<T> {
             context,
             curve,
             alignment,
-            animation,
+            iosAnimation,
             secondaryAnimation,
             popGesture ?? Get.defaultPopGesture
                 ? _CupertinoBackGestureDetector<T>(
