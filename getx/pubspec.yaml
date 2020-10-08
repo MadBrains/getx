@@ -13,37 +13,37 @@ dependencies:
     git:
       url: git://github.com/MrOlolo/getx.git
       path: packages/get_core
-      ref: master
+      ref: fix/route-transition
   get_instance: 
     git:
       url: git://github.com/MrOlolo/getx.git
       path: packages/get_instance
-      ref: master
+      ref: fix/route-transition
   get_rx: 
     git:
       url: git://github.com/MrOlolo/getx.git
       path: packages/get_rx
-      ref: master
+      ref: fix/route-transition
   get_state_manager:
     git:
       url: git://github.com/MrOlolo/getx.git
       path: packages/get_state_manager
-      ref: master
+      ref: fix/route-transition
   get_navigation:
     git:
       url: git://github.com/MrOlolo/getx.git
       path: packages/get_navigation
-      ref: master
+      ref: fix/route-transition
   get_utils: 
     git:
       url: git://github.com/MrOlolo/getx.git
       path: packages/get_utils
-      ref: master
+      ref: fix/route-transition
   get_test:
     git:
       url: git://github.com/MrOlolo/getx.git
       path: packages/get_test
-      ref: master   
+      ref: fix/route-transition   
 
 
 dev_dependencies:
